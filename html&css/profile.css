@@ -1,0 +1,40 @@
+body {
+	background-color: #E6E9EB
+	}
+
+div {
+	font-family: Arial;
+}
+	
+hr {
+	margin-left: 370px;
+	margin-right: 370px;
+}
+
+img {
+	padding-right: 80px;
+}
+
+.picture {
+	padding: 25px;
+	text-align: center;
+}
+
+.reason {
+	padding: 25px;
+	text-align: center;
+}
+
+li {
+	text-align: left;
+}
+
+.contacts {
+	padding: 25px;
+	text-align: center;
+}
+
+.feedback {
+	padding: 25px;
+	text-align: center;
+}

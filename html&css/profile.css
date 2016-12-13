@@ -6,6 +6,17 @@ div {
 	font-family: Arial;
 }
 	
+h1 {
+	padding-left: 318px; 
+	padding-right: 400px
+}
+
+.student {
+	color: grey; 
+	padding-left: 173px; 
+	padding-right: 500px
+}	
+	
 hr {
 	margin-left: 370px;
 	margin-right: 370px;
@@ -25,6 +36,20 @@ img {
 	text-align: center;
 }
 
+.reason p {
+	padding-left: 355px; 
+	padding-right: 550px;
+}
+
+ul {
+	padding-left: 400px; 
+	padding-right: 550px;
+}
+
+.reason:first-child {
+	margin-top: 15px;	
+}
+
 li {
 	text-align: left;
 }
@@ -34,7 +59,48 @@ li {
 	text-align: center;
 }
 
+.phone {
+	padding-left: 390px; 
+	padding-right: 550px; 
+	text-align: left;
+}
+
+.number {
+	padding-left: 190px; 
+	padding-right: 550px;
+}
+
+.network {
+	padding-left: 388px; 
+	padding-right: 550px; 
+	text-align: left;
+}
+
+.page {
+	padding-left: 180px; 
+	padding-right: 550px;
+}
+
 .feedback {
 	padding: 25px;
 	text-align: center;
 }
+
+.somefeedback {
+	padding-left: 135px; 
+	padding-right: 550px;
+}
+
+.sometext {
+	padding-left: 400px; 
+	padding-right: 550px; 
+	text-align: justify;
+}
+
+
+
+
+
+
+
+

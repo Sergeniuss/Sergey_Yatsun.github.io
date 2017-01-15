@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url(../image/bg1.png);	
+}
+		
+header {
+	margin: 0 auto;
+	width: 900px;
+	height: 500px;
+	background-color: white;
+}
+		
+.logo {
+	width: 550px;
+	margin-left: 15px;
+	margin-top: 8px;
+	float: left;
+}
+		
+.contacts {
+	font-family: Tahoma;
+	font-size: 12px;
+	line-height: 15px;
+	margin-left: 725px;
+	margin-bottom: 70px;
+	color: #81c1d0;
+}
+		
+.contacts p:first-child {
+	font-weight: bold;
+}
+		
+.countries {
+	padding: 1px;
+}
+		
+.flags {
+	margin: 3px;
+	float: left;
+}
+		
+.countries img:last-child {
+	overflow: hidden;
+}
+		
+header.photo {
+	width: 900px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+.lists {
+	width: 900px;
+	margin: 0 auto;
+}		
+		
+ul {
+	display: block;
+	margin: 0;
+	padding: 0px;
+	list-style: none;
+}
+
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+
+ul.menu > li {
+    float: left;
+}
+
+ul.menu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: #303030;
+    text-decoration: none;
+}
+
+ul.menu > li > a:hover {
+    background-color: black;
+}
+
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 120px;
+    top: 37px;
+    left: 0;
+    background-color: #303030;
+    border: 1px solid #303030;
+}
+
+ul.submenu > li {
+    display: block;
+}
+
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: #303030;
+    text-decoration: none;
+}
+
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
+
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+
+li {
+	width: 125px;
+	text-align: center;
+}
+
+.feedback {
+	width: 150px;
+}
+
+.fon {
+	width: 900px;
+	margin: 0 auto;
+	background: url (image/white_main.png) repeat-y;	
+}
+
+.leftColumn {
+	width: 250px;
+	height: 405px;
+	float: left;
+	background-color: #edeef0;
+	text-align: center;
+}
+
+.centralColumn {
+	width: 400px;
+	height: 405px;
+	float: left;
+	background-color: white;
+	text-align: center;		
+}
+
+.rightColumn {
+	width: 250px;
+	height: 405px;
+	overflow: hidden;
+	background-color: #edeef0;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	color: white;
+	padding: 5px;
+}
